@@ -71,6 +71,15 @@ header.sticky ul li a{
     /* margin-left: 112px; */
     margin-top: 30px;
 }
+@media only screen and (max-width: 387px) {
+    .wrapper .text{
+        color: #fff;
+        font-size: 15px;
+        font-weight: 400;
+        /* margin-left: 112px; */
+        margin-top: 33px;
+    }
+}
 .wrapper .option{
     margin-left: -26px;
     height: 70px;
@@ -87,6 +96,17 @@ header.sticky ul li a{
     top: 0;
     animation: slide 6s steps(4) infinite;
     
+}
+@media only screen and (max-width: 387px) {
+    .option li{
+        list-style: none;
+        color: #face30;
+        font-size: 12px;
+        font-weight: 500;
+        position: relative;
+        top: 0;
+        animation: slide 6s steps(4) infinite;
+    }
 }
 @keyframes slide{
     100%{
@@ -149,6 +169,19 @@ header.sticky ul li a{
     background-repeat: no-repeat;
     background-size: cover;
 }
+@media only screen and (max-width: 387px) {
+    #contactService{
+        background-image: url(./bg-img/mob-view/LastBg.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-color: rgba(119, 115, 115, 0.6);
+        background-blend-mode: lighten;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
 /* #header{
     position: fixed;
     width: 100%;
@@ -165,10 +198,10 @@ header.sticky ul li a{
     background-repeat: no-repeat;
     background-size: cover;
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 387px) {
     #Home {
         padding-top: 4em;
-        background-image: url(/bg-img/mob-view/1597902764768.jpg);
+        background-image: url(./bg-img/mob-view/1597902764768.jpg);
         background-color: rgba(119, 115, 115, 0.4);
         background-blend-mode: lighten;
         background-attachment: fixed;
@@ -277,7 +310,7 @@ html {
     background-size: cover;
     
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 387px) {
     #qoute {
         width: 100%;
         padding: 7px;
