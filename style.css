@@ -85,7 +85,7 @@ header.sticky ul li a{
     font-weight: 500;
     position: relative;
     top: 0;
-    animation: slide 12s steps(4) infinite;
+    animation: slide 6s steps(4) infinite;
     
 }
 @keyframes slide{
