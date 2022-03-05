@@ -55,8 +55,67 @@ header.sticky ul li a{
 #homeText{
     margin-bottom: 0;
     padding-bottom: 0;
+   
 }
-
+.introText{
+    margin-bottom: -30px;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+.wrapper .text{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    /* margin-left: 112px; */
+    margin-top: 30px;
+}
+.wrapper .option{
+    margin-left: -26px;
+    height: 70px;
+    line-height: 90px;
+    overflow: hidden;
+    margin-bottom: -20px;
+}
+.option li{
+    list-style: none;
+    color: #face30;
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    animation: slide 12s steps(4) infinite;
+    
+}
+@keyframes slide{
+    100%{
+        top:-360px;
+    }
+}
+.option li span{
+    position: relative;
+    margin: 5px 0;
+    line-height: 50px;
+}
+/* .option li span::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    border-left: 2px solid #face30 ;
+    animation: typing 3s steps(15) infinite;
+}
+@keyframes typing{
+    40%,60%{
+        left:calc(100% + 30px);
+    }
+    100%{
+        left: 0;
+    }
+} */
 #coverImage{
     
     width: 100%;
@@ -80,7 +139,7 @@ header.sticky ul li a{
     height: 233px;
 }
 #contactService{
-    background-image: url(LastBg.jpg);
+    background-image: url(/bg-img/LastBg.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-color: rgba(119, 115, 115, 0.6);
@@ -209,7 +268,7 @@ html {
     color: rgb(224, 197, 197);
     font-style: italic;
     box-shadow: inset 0 0 0 1000px rgba(110, 105, 105, 0.5);
-    background-image: url(/bg-img/2068767.png);
+    background-image: url(/bg-img/2068767.jpg);
     background-color: rgb(54, 47, 47);
     background-blend-mode: lighten;
     background-attachment: fixed;
