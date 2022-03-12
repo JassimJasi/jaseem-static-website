@@ -348,11 +348,16 @@ html {
     align-items: flex-end;
    
 }
-.navText{
-    margin-right: 50px;
+
+.navbar-nav > li:hover{
+    color: #fff;
 }
-.navbar-nav > li{
-   padding-left: 0;
-   margin-left: 0;
-    padding-right:30px;
+.introText:hover {
+    cursor: default;
+}
+.text:hover {
+    cursor: default;
+}
+.active{
+    text-decoration: underline;
 }
